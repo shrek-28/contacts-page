@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Page</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-img">
+        <img src="./previews/contact-form-icon.svg">
+    </div>
+    <div class="form-intro">
+        <span class="head">
+            Interested in our business pricing?
+        </span> <br>
+        <div class="space">
+
+        </div>
+        <span class="sub-head">
+            Fill out the form to view details and we’ll contact you as soon as possible.
+        </span>
+    </div>
+    <form class="main-form">
+
+            <div class="name">
+            <label for="fname">Name</label> <br>
+            <input type="text" id="fname" name="fname" class="text" value="Ethan James">
+            </div>
+            <div class="email">
+                <label for="lname">Company Email</label> 
+                <input type="text" id="lname" name="lname" class="text" value="ethan@johnson.com">
+            </div>
+            <div class="company-size">
+                <label for="company-size">Company Size</label> <br>
+                <div class="custom-select">
+                    <select>
+                      <option value="">50-100 Employees</option>
+                      <option value="">100-150 Employees</option>
+                      <option value="">150-200 Employees</option>
+                      <option value="">200-250 Employees</option>
+                    </select>
+                  </div>
+            </div>
+
+            <div class="subject">
+                <label for="company-size">Subject</label> <br>
+                <div class="custom-select">
+                    <select>
+                      <option value="">Responsive Web Pages</option>
+                      <option value="">Data Structures</option>
+                      <option value="">Neuroscience</option>
+                      <option value="">Cancer Biology</option>
+                    </select>
+                  </div>
+            </div>
+            
+        <div class="message">
+                <label for="message">Message</label> <br>
+                <textarea name="message">   50-100 Employees                    
+                </textarea>
+        </div>
+
+        <input type="submit" value="Contact Sales">
+
+    </form>
+</body>
+</html>
